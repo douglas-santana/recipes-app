@@ -45,7 +45,7 @@ function App() {
         <Route exact path="/receitas-feitas" component={ RecipesMade } />
         <Route exact path="/receitas-favoritas" component={ RecipesFavorites } />
         <Route exact path="/perfil" component={ Profile } />
-        <Route exact path="/" component={ Login } />
+        <Route exact path="/recipes-app" component={ Login } />
         <Route path="*" component={ NotFound } />
 
       </Switch>
